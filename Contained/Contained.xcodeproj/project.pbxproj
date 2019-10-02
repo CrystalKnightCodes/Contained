@@ -14,6 +14,7 @@
 		BA6029BB234569A0006ED285 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA6029B9234569A0006ED285 /* LaunchScreen.storyboard */; };
 		BA6029C323456BD0006ED285 /* Crab.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA6029C223456BD0006ED285 /* Crab.xcassets */; };
 		BA6029C523456C1D006ED285 /* SKSpriteNode+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6029C423456C1D006ED285 /* SKSpriteNode+Utility.swift */; };
+		BA6029C723456D2C006ED285 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6029C623456D2C006ED285 /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BA6029BC234569A0006ED285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA6029C223456BD0006ED285 /* Crab.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Crab.xcassets; path = ../../Crab.xcassets; sourceTree = "<group>"; };
 		BA6029C423456C1D006ED285 /* SKSpriteNode+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SKSpriteNode+Utility.swift"; path = "../../SKSpriteNode+Utility.swift"; sourceTree = "<group>"; };
+		BA6029C623456D2C006ED285 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				BA6029AE2345699F006ED285 /* AppDelegate.swift */,
 				BA6029B02345699F006ED285 /* SceneDelegate.swift */,
 				BA6029B42345699F006ED285 /* Main.storyboard */,
+				BA6029C623456D2C006ED285 /* Settings.swift */,
 				BA6029B7234569A0006ED285 /* Assets.xcassets */,
 				BA6029C423456C1D006ED285 /* SKSpriteNode+Utility.swift */,
 				BA6029C223456BD0006ED285 /* Crab.xcassets */,
@@ -144,6 +147,7 @@
 			files = (
 				BA6029C523456C1D006ED285 /* SKSpriteNode+Utility.swift in Sources */,
 				BA6029AF2345699F006ED285 /* AppDelegate.swift in Sources */,
+				BA6029C723456D2C006ED285 /* Settings.swift in Sources */,
 				BA6029B12345699F006ED285 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

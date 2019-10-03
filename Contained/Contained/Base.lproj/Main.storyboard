@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Play-->
         <scene sceneID="7dB-4Z-4Fo">
             <objects>
                 <viewController id="JQX-gz-UKs" sceneMemberID="viewController">
@@ -17,13 +17,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="9ML-hB-LKP"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="0sM-pu-xJ9"/>
+                    <tabBarItem key="tabBarItem" title="Play" image="game_controller" selectedImage="game_controller" id="0sM-pu-xJ9"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Yi-Mf-JhN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="864" y="-5"/>
         </scene>
-        <!--Item-->
+        <!--Settings-->
         <scene sceneID="pMq-ng-rI5">
             <objects>
                 <viewController id="VHz-xM-zNY" sceneMemberID="viewController">
@@ -33,13 +33,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="X3N-GX-bqN"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="j2g-RV-4P8"/>
+                    <tabBarItem key="tabBarItem" title="Settings" image="settings" selectedImage="settings" id="j2g-RV-4P8"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8dI-6k-OuB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="863.768115942029" y="666.96428571428567"/>
         </scene>
-        <!--Item-->
+        <!--Info-->
         <scene sceneID="pSf-ac-HkX">
             <objects>
                 <viewController id="rbu-sQ-lAa" sceneMemberID="viewController">
@@ -49,7 +49,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="J4r-jW-c4Y"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="zlj-aP-sR5"/>
+                    <tabBarItem key="tabBarItem" title="Info" image="info" selectedImage="info" id="zlj-aP-sR5"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ued-S6-YJF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -75,4 +75,9 @@
             <point key="canvasLocation" x="-433" y="77"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="game_controller" width="30" height="30"/>
+        <image name="info" width="30" height="30"/>
+        <image name="settings" width="30" height="30"/>
+    </resources>
 </document>

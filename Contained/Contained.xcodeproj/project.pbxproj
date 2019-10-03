@@ -15,6 +15,9 @@
 		BA6029C323456BD0006ED285 /* Crab.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA6029C223456BD0006ED285 /* Crab.xcassets */; };
 		BA6029C523456C1D006ED285 /* SKSpriteNode+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6029C423456C1D006ED285 /* SKSpriteNode+Utility.swift */; };
 		BA6029C723456D2C006ED285 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6029C623456D2C006ED285 /* Settings.swift */; };
+		BA6029CB23457D1F006ED285 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6029CA23457D1F006ED285 /* GameViewController.swift */; };
+		BA6029CD23457D30006ED285 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6029CC23457D30006ED285 /* InfoViewController.swift */; };
+		BA6029CF23457D3E006ED285 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6029CE23457D3E006ED285 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +28,12 @@
 		BA6029B7234569A0006ED285 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA6029BA234569A0006ED285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA6029BC234569A0006ED285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA6029C223456BD0006ED285 /* Crab.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Crab.xcassets; path = ../../Crab.xcassets; sourceTree = "<group>"; };
-		BA6029C423456C1D006ED285 /* SKSpriteNode+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SKSpriteNode+Utility.swift"; path = "../../SKSpriteNode+Utility.swift"; sourceTree = "<group>"; };
+		BA6029C223456BD0006ED285 /* Crab.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Crab.xcassets; sourceTree = "<group>"; };
+		BA6029C423456C1D006ED285 /* SKSpriteNode+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKSpriteNode+Utility.swift"; sourceTree = "<group>"; };
 		BA6029C623456D2C006ED285 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		BA6029CA23457D1F006ED285 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		BA6029CC23457D30006ED285 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		BA6029CE23457D3E006ED285 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,14 +69,41 @@
 				BA6029AE2345699F006ED285 /* AppDelegate.swift */,
 				BA6029B02345699F006ED285 /* SceneDelegate.swift */,
 				BA6029B42345699F006ED285 /* Main.storyboard */,
-				BA6029C623456D2C006ED285 /* Settings.swift */,
-				BA6029B7234569A0006ED285 /* Assets.xcassets */,
-				BA6029C423456C1D006ED285 /* SKSpriteNode+Utility.swift */,
-				BA6029C223456BD0006ED285 /* Crab.xcassets */,
+				BA6029D023457D45006ED285 /* View Controllers */,
+				BA6029C823457CD8006ED285 /* Model */,
+				BA6029C923457CF7006ED285 /* Assets */,
 				BA6029B9234569A0006ED285 /* LaunchScreen.storyboard */,
 				BA6029BC234569A0006ED285 /* Info.plist */,
 			);
 			path = Contained;
+			sourceTree = "<group>";
+		};
+		BA6029C823457CD8006ED285 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA6029C623456D2C006ED285 /* Settings.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BA6029C923457CF7006ED285 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				BA6029B7234569A0006ED285 /* Assets.xcassets */,
+				BA6029C423456C1D006ED285 /* SKSpriteNode+Utility.swift */,
+				BA6029C223456BD0006ED285 /* Crab.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		BA6029D023457D45006ED285 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BA6029CA23457D1F006ED285 /* GameViewController.swift */,
+				BA6029CC23457D30006ED285 /* InfoViewController.swift */,
+				BA6029CE23457D3E006ED285 /* SettingsViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,9 +178,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA6029CB23457D1F006ED285 /* GameViewController.swift in Sources */,
 				BA6029C523456C1D006ED285 /* SKSpriteNode+Utility.swift in Sources */,
+				BA6029CF23457D3E006ED285 /* SettingsViewController.swift in Sources */,
 				BA6029AF2345699F006ED285 /* AppDelegate.swift in Sources */,
 				BA6029C723456D2C006ED285 /* Settings.swift in Sources */,
+				BA6029CD23457D30006ED285 /* InfoViewController.swift in Sources */,
 				BA6029B12345699F006ED285 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

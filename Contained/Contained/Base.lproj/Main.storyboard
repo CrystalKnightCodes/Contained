@@ -10,7 +10,7 @@
         <!--Play View Controller-->
         <scene sceneID="7dB-4Z-4Fo">
             <objects>
-                <viewController title="Play View Controller" id="JQX-gz-UKs" sceneMemberID="viewController">
+                <viewController title="Play View Controller" id="JQX-gz-UKs" customClass="GameViewController" customModule="Contained" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Njc-37-Y4s">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -26,7 +26,7 @@
         <!--Settings View Controller-->
         <scene sceneID="pMq-ng-rI5">
             <objects>
-                <viewController title="Settings View Controller" id="VHz-xM-zNY" sceneMemberID="viewController">
+                <viewController title="Settings View Controller" id="VHz-xM-zNY" customClass="SettingsViewController" customModule="Contained" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="q3j-bM-u5J">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -64,7 +64,7 @@
         <!--Info View Controller-->
         <scene sceneID="pSf-ac-HkX">
             <objects>
-                <viewController title="Info View Controller" id="rbu-sQ-lAa" sceneMemberID="viewController">
+                <viewController title="Info View Controller" id="rbu-sQ-lAa" customClass="InfoViewController" customModule="Contained" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mIR-Nk-kZq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

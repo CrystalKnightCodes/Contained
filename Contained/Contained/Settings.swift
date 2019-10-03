@@ -9,7 +9,7 @@
 import Foundation
 
 class Settings {
-    static let shared = Settings()
+    static let shared = Settings() // singleton
     private init() {}
     
     var shouldRoll = false
